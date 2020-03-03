@@ -1,0 +1,94 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar{
+    background-color: #194343;
+}
+
+.navbar .nav-link {
+font-size: 14px;
+text-transform: uppercase;
+padding-left: 1rem !important;
+padding-right: 1rem !important;
+}
+
+
+
+.navbar-brand {
+    text-transform: uppercase;
+}
+
+.nav-item.active{
+    border-left: #cc672a 1px solid;
+}
+
+.carousel-item{
+    height: 450px;
+   
+
+}
+.carousel-image-1{
+    background: url("../img/anh-nguyen.jpg");
+    background-size: cover;
+    background-position: center;
+    
+}
+.carousel-image-2{
+    background: url("../img/anna-pelzer.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.carousel-image-3{
+    background: url("../img/edgar-castrejon.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#home-icons{
+    min-height: 350px;
+   
+    background-color: #cc672a;
+}
+#home-icons i{
+    color: #194343;
+    margin: 20%;
+}
+
+#home-heading{
+    position: relative;
+    min-height: 350px;
+    background: url("../img/andres-aleman.jpg");
+    background-position: top right;
+    text-align: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.dark-overlay {
+    position: absolute;
+    width: 100%;
+    background-color: #194343;;
+}
+
+#video-play {
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+#video-play a {
+    color: #fff;
+}
+
+#video-play i {
+    color: #cc672a;
+}
+
+
+.color-palette{
+    a: #1a2a2c;
+    b: #194343;
+    c: #6e4533;
+    d: #cc672a;
+    f: #ea8d45;
+}
